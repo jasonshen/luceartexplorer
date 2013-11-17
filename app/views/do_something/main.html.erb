@@ -1,0 +1,66 @@
+<%= render 'layouts/navigation' %>
+<%= stylesheet_link_tag "font-awesome/css/font-awesome.min.css" %>
+
+<div class="container col-md-offset-3">
+
+	<div class="row">
+		<div class="col-xs-12 col-md-6" align="center">
+			<img src="<%= @fields['response']['docs'][0]['descriptiveNonRepeating']['online_media']['media'][0]['idsId'] rescue "http://www.reactiongifs.com/wp-content/uploads/2013/11/ds.gif" %>" width="100%" align="left">
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-6">
+			<h3 class="creator">
+				<%= @fields['response']['docs'][0]["indexedStructured"]["name"][0] rescue "No Creator" %>&nbsp;<span class="glyphicon glyphicon-play"></span>
+				<div style="float:right;" class="orange">
+				<span class="fa-stack">
+				  <i class="fa fa-square fa-stack-2x"></i>
+				  <i class="fa fa-external-link fa-stack-1x fa-inverse"></i>
+				</span>&nbsp;<span class="fa-stack">
+				  <i class="fa fa-square fa-stack-2x"></i>
+				  <i class="fa fa-bookmark fa-stack-1x fa-inverse"></i>
+				</span>
+				</div>
+			</h3>
+
+
+			<h1>
+				<%= @fields['response']['docs'][0]["descriptiveNonRepeating"]["title"]["content"] rescue "We couldn't find anything with that query. Try again?" %>
+			</h1>
+			<blockquote>
+			<h4 class="date">
+				<%= @fields['response']['docs'][0]["freetext"]["date"][0]["content"] rescue "d" %>
+			</h4>
+
+			<h4 class="physicalDescription">
+				<%= @fields['response']['docs'][0]["freetext"]["physicalDescription"][0]["content"] rescue "Unknown material." %>
+			</h4>
+			</blockquote>
+			<h4 class="location">
+				<i class="fa fa-location-arrow"></i>&nbsp;<%= @fields['response']['docs'][0]["freetext"]["setName"][1]["content"] rescue "This piece is currently not on view." %>
+			</h4>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="col-md-6">
+			<div class="row description-text">
+				<%= @fields['response']['docs'][0]["freetext"]["notes"][0]["content"] rescue "This piece has no description in our database."  %>
+			</div>
+		</div>
+
+	</div>
+
+<br><br><br><br>
+
+
+
+</div>
+
+
+
+
+
+

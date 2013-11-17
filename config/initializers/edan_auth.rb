@@ -1,0 +1,2 @@
+ENV['EDANUSER'] = "HACK"
+ENV['EDANPASS'] = "hackme2013!"
