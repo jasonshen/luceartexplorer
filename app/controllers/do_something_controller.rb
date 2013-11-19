@@ -27,10 +27,10 @@ class DoSomethingController < ApplicationController
         res = eq.request("rows=1&q=#{gymnastics}&wt=json&fq=online_media_type:Images")
       end
       # parse the results.
-      res.code.inspect  # for debugging
-      if res.code == "200"
-        @fields = JSON.parse(res.body)
-      end
+#     @fields = JSON.parse(res.body)
+      res = eq.request("rows=1&q=#{"gymnastics"}&start=#{random}&wt=json&fq=online_media_type:Images")
+      @fields = JSON.parse(res.body)  
+
 
     # do something to the results.
     # return the post-processed data to view.
