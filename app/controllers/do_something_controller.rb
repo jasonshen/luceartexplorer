@@ -26,8 +26,12 @@ class DoSomethingController < ApplicationController
       end
       # parse the results.
 #     @fields = JSON.parse(res.body)
-      @fields = JSON.parse(res.body)  
-
+      # parse the results.
+      res.code.inspect  # for debugging
+      
+      if res.code == "200"
+        @fields = JSON.parse(res.body)
+      end
 
     # do something to the results.
     # return the post-processed data to view.
