@@ -44030,3 +44030,643 @@ Served asset /do_something.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 09:45:41 -0500
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-19 09:52:20 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>"ter"}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered do_something/main.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 152ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 09:52:21 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-19 09:59:46 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>"ter"}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered do_something/main.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 261ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /customstyle.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /do_something.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /do_something.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-19 09:59:47 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (2ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-19 10:04:56 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>"ter"}, "commit"=>"Random Search!"}
+ERROR: compiling _app_views_do_something_main_html_erb__3743516834639771403_70339575887300 RAISED /Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:22: unknown regexp options - pa
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:22: syntax error, unexpected tAMPER
+				</span>&nbsp;<span class="fa-stack">
+				        ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:22: syntax error, unexpected '<', expecting ')'
+				</span>&nbsp;<span class="fa-stack">
+				              ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:23: syntax error, unexpected '<'
+				  <i class="fa fa-square fa-stack-2x"></i>
+				   ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:23: syntax error, unexpected '<'
+				  <i class="fa fa-square fa-stack-2x"></i>
+				                                       ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:25: syntax error, unexpected '<'
+				</span>
+				 ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:26: unknown regexp options - dv
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:27: syntax error, unexpected '<'
+			</h3>
+			 ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:32: unknown regexp option - h
+unmatched close parenthesis: /h3>
+
+
+			<h1>
+				');@output_buffer.append= ( @fields['response']['docs'][0]["descriptiveNonRepeating"]["title"]["content"] rescue "We couldn't find anything with that query. Try again?" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			</
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:32: syntax error, unexpected tINTEGER, expecting ')'
+');@output_buffer.safe_concat('			</h1>
+                               			    ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...fer.append= ( @fields['response']['docs'][0]["freetext"]["da...
+...                               ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...nd= ( @fields['response']['docs'][0]["freetext"]["date"][0][...
+...                               ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:40: unknown regexp option - h
+unmatched close parenthesis: /h4>
+
+			<h4 class="physicalDescription">
+				');@output_buffer.append= ( @fields['response']['docs'][0]["freetext"]["physicalDescription"][0]["content"] rescue "Unknown material." );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			</
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:40: syntax error, unexpected tINTEGER, expecting ')'
+');@output_buffer.safe_concat('			</h4>
+                               			    ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:43: syntax error, unexpected tAMPER
+...ss="fa fa-location-arrow"></i>&nbsp;');@output_buffer.append...
+...                               ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...fer.append= ( @fields['response']['docs'][0]["freetext"]["se...
+...                               ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...nd= ( @fields['response']['docs'][0]["freetext"]["setName"][...
+...                               ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:45: unknown regexp options - dv
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:46: syntax error, unexpected '<'
+	</div>
+	 ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:52: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+	<div class="container">
+		<div class="col-md-6">
+			<div class="row description-text">
+				');@output_buffer.append= ( @fields['response']['docs'][0]["freetext"]["notes"][0]["content"] rescue "This piece has no description in our database."  );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			</i
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:53: syntax error, unexpected '<'
+		</div>
+		 ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:55: unknown regexp options - dv
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:57: syntax error, unexpected '<'
+<br><br><br><br>
+ ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:61: unterminated regexp meets end of file
+Function body:           def _app_views_do_something_main_html_erb__3743516834639771403_70339575887300(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "do_something/main";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append= ( render 'layouts/navigation' );@output_buffer.safe_concat('
+');@output_buffer.append= ( stylesheet_link_tag "font-awesome/css/font-awesome.min.css" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+<div class="container col-md-offset-3">
+
+	<div class="row">
+		<div class="col-xs-12 col-md-6" align="center">
+			<!-- <img src="');@output_buffer.append= ( @fields['response']['docs'][0]['descriptiveNonRepeating']['online_media']['media'][0]['idsId'] rescue "http://www.reactiongifs.com/wp-content/uploads/2013/11/ds.gif" );@output_buffer.safe_concat('" width="100%" align="left"> -->
+			');@output_buffer.append= ( @fields['response']['docs'][0]['descriptiveNonRepeating']['online_media']['media'][0]['idsId'] =>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-6">
+			<h3 class="creator">
+				<%= @fields['response']['docs'][0]["indexedStructured"]["name"][0] rescue "No Creator" );@output_buffer.safe_concat('&nbsp;<span class="glyphicon glyphicon-play"></span>
+				<div style="float:right;" class="orange">
+				<span class="fa-stack">
+				  <i class="fa fa-square fa-stack-2x"></i>
+				  <i class="fa fa-external-link fa-stack-1x fa-inverse"></i>
+				</span>&nbsp;<span class="fa-stack">
+				  <i class="fa fa-square fa-stack-2x"></i>
+				  <i class="fa fa-bookmark fa-stack-1x fa-inverse"></i>
+				</span>
+				</div>
+			</h3>
+
+
+			<h1>
+				');@output_buffer.append= ( @fields['response']['docs'][0]["descriptiveNonRepeating"]["title"]["content"] rescue "We couldn't find anything with that query. Try again?" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			</h1>
+			<blockquote>
+			<h4 class="date">
+				');@output_buffer.append= ( @fields['response']['docs'][0]["freetext"]["date"][0]["content"] rescue "d" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			</h4>
+
+			<h4 class="physicalDescription">
+				');@output_buffer.append= ( @fields['response']['docs'][0]["freetext"]["physicalDescription"][0]["content"] rescue "Unknown material." );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			</h4>
+			</blockquote>
+			<h4 class="location">
+				<i class="fa fa-location-arrow"></i>&nbsp;');@output_buffer.append= ( @fields['response']['docs'][0]["freetext"]["setName"][1]["content"] rescue "This piece is currently not on view." );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			</h4>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="col-md-6">
+			<div class="row description-text">
+				');@output_buffer.append= ( @fields['response']['docs'][0]["freetext"]["notes"][0]["content"] rescue "This piece has no description in our database."  );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			</div>
+		</div>
+
+	</div>
+
+<br><br><br><br>
+
+
+
+</div>
+
+
+
+
+
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `module_eval'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `compile'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/template.rb:232:in `compile!'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/template.rb:144:in `block in render'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/notifications.rb:125:in `instrument'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/template.rb:143:in `render'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/jasonshen/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/controllers/do_something_controller.rb:37:in `main'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:414:in `_run__422508848292630582__process_action__1187884986986395456__callbacks'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:121:in `process'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_controller/metal.rb:246:in `block in action'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:612:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/rack-1.4.5/lib/rack/conditionalget.rb:35:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activerecord-3.2.13/lib/active_record/query_cache.rb:64:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `_run__3242310002323916681__call__362547161873429505__callbacks'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/better_errors-1.0.1/lib/better_errors/middleware.rb:84:in `protected_app_call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/better_errors-1.0.1/lib/better_errors/middleware.rb:79:in `better_errors_call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/better_errors-1.0.1/lib/better_errors/middleware.rb:56:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/railties-3.2.13/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/actionpack-3.2.13/lib/action_dispatch/middleware/static.rb:63:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/railties-3.2.13/lib/rails/engine.rb:479:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/railties-3.2.13/lib/rails/application.rb:223:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/railties-3.2.13/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/jasonshen/.rvm/gems/ruby-1.9.3-p194@global/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/jasonshen/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/jasonshen/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/jasonshen/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered do_something/main.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 158ms
+
+SyntaxError - /Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:22: unknown regexp options - pa
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:22: syntax error, unexpected tAMPER
+				</span>&nbsp;<span class="fa-stack">
+				        ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:22: syntax error, unexpected '<', expecting ')'
+				</span>&nbsp;<span class="fa-stack">
+				              ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:23: syntax error, unexpected '<'
+				  <i class="fa fa-square fa-stack-2x"></i>
+				   ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:23: syntax error, unexpected '<'
+				  <i class="fa fa-square fa-stack-2x"></i>
+				                                       ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:25: syntax error, unexpected '<'
+				</span>
+				 ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:26: unknown regexp options - dv
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:27: syntax error, unexpected '<'
+			</h3>
+			 ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:32: unknown regexp option - h
+unmatched close parenthesis: /h3>
+
+
+			<h1>
+				');@output_buffer.append= ( @fields['response']['docs'][0]["descriptiveNonRepeating"]["title"]["content"] rescue "We couldn't find anything with that query. Try again?" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			</
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:32: syntax error, unexpected tINTEGER, expecting ')'
+');@output_buffer.safe_concat('			</h1>
+                               			    ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...fer.append= ( @fields['response']['docs'][0]["freetext"]["da...
+...                               ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...nd= ( @fields['response']['docs'][0]["freetext"]["date"][0][...
+...                               ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:40: unknown regexp option - h
+unmatched close parenthesis: /h4>
+
+			<h4 class="physicalDescription">
+				');@output_buffer.append= ( @fields['response']['docs'][0]["freetext"]["physicalDescription"][0]["content"] rescue "Unknown material." );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			</
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:40: syntax error, unexpected tINTEGER, expecting ')'
+');@output_buffer.safe_concat('			</h4>
+                               			    ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:43: syntax error, unexpected tAMPER
+...ss="fa fa-location-arrow"></i>&nbsp;');@output_buffer.append...
+...                               ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...fer.append= ( @fields['response']['docs'][0]["freetext"]["se...
+...                               ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:43: syntax error, unexpected tIDENTIFIER, expecting ')'
+...nd= ( @fields['response']['docs'][0]["freetext"]["setName"][...
+...                               ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:45: unknown regexp options - dv
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:46: syntax error, unexpected '<'
+	</div>
+	 ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:52: unknown regexp options - dv
+unmatched close parenthesis: /div>
+
+	<div class="container">
+		<div class="col-md-6">
+			<div class="row description-text">
+				');@output_buffer.append= ( @fields['response']['docs'][0]["freetext"]["notes"][0]["content"] rescue "This piece has no description in our database."  );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			</i
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:53: syntax error, unexpected '<'
+		</div>
+		 ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:55: unknown regexp options - dv
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:57: syntax error, unexpected '<'
+<br><br><br><br>
+ ^
+/Users/jasonshen/Dropbox/Jason Kills It/Team Treehouse/Rails/LuceHackathon/testapp/app/views/do_something/main.html.erb:61: unterminated regexp meets end of file:
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `'
+  actionpack (3.2.13) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.13) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.13) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.13) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.13) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.13) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/jasonshen/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  app/controllers/do_something_controller.rb:37:in `main'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__422508848292630582__process_action__1187884986986395456__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__3242310002323916681__call__362547161873429505__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jasonshen/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jasonshen/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jasonshen/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70339575954740/variables" for 127.0.0.1 at 2013-11-19 10:04:57 -0500
+
+
+Started POST "/__better_errors/70339575954740/eval" for 127.0.0.1 at 2013-11-19 10:05:38 -0500
+
+
+Started POST "/__better_errors/70339575954740/eval" for 127.0.0.1 at 2013-11-19 10:07:07 -0500
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Processing by DoSomethingController#main as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PkyLtIjFg9//yAF6CAMd92FiROhrbIQcoQFO++L9bUo=", "search"=>{"search_field"=>"ter"}, "commit"=>"Random Search!"}
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered do_something/main.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 148ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /bootstrap-theme.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.css?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /do_something.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customstyle.css?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /customstyle.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /font-awesome/css/font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /font-awesome/css/font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /jquery.backstretch.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/do_something.js?body=1" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /do_something.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3" for 127.0.0.1 at 2013-11-19 10:07:31 -0500
+Served asset /font-awesome/fonts/fontawesome-webfont.woff - 304 Not Modified (0ms)
