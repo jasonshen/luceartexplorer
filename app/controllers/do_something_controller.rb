@@ -6,13 +6,15 @@ class DoSomethingController < ApplicationController
 
         # instantiate edan object.
     eq = EDANQuery.new("JasonsTestApp")
+    query = params[:search][:search_field]
 
     begin
-      searchResults = eq.request("q=#{params[:search][:search_field]}&wt=json&fq=online_media_type:Images")
+      searchResults = eq.request("q=#{query}&wt=json&fq=online_media_type:Images")
       sResults = JSON.parse(searchResults.body)
       cap = sResults["response"]["numFound"]
       random = rand(cap).to_i
     rescue
+      query = "gymnastics"
       random = 0
     end
 
@@ -20,9 +22,9 @@ class DoSomethingController < ApplicationController
 
     # make a call for single row with random offset value; but make sure it has an image also.
       begin
-        res = eq.request("rows=1&q=#{params[:search][:search_field]}&start=#{random}&wt=json&fq=online_media_type:Images")
+        res = eq.request("rows=1&q=#{query}&start=#{random}&wt=json&fq=online_media_type:Images")
       rescue
-        res = eq.request("rows=1&wt=json&fq=online_media_type:Images")
+        res = eq.request("rows=1&q=#{gymnastics}&wt=json&fq=online_media_type:Images")
       end
       # parse the results.
       res.code.inspect  # for debugging
