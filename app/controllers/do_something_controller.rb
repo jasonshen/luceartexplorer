@@ -22,7 +22,8 @@ class DoSomethingController < ApplicationController
       begin
         res = eq.request("rows=1&q=#{params[:search][:search_field]}&start=#{random}&wt=json&fq=online_media_type:Images")
       rescue
-        res = eq.request("rows=1&q=#{"gymnastics"}&wt=json&fq=online_media_type:Images")
+        random = rand(3000).to_i
+        res = eq.request("rows=1&start=#{random}&wt=json&fq=online_media_type:Images")
       end
       # parse the results.
 #     @fields = JSON.parse(res.body)
